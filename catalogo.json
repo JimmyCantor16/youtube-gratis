@@ -1,0 +1,404 @@
+{
+  "version": 2,
+  "actualizado": "2026-11-18",
+  "marca": {
+    "nombre": "Sala TV",
+    "lema": "Tu canal, tu contenido",
+    "acento": "#00E0AC"
+  },
+  "categorias": [
+    {
+      "id": "peliculas",
+      "nombre": "Películas",
+      "canal": 1
+    },
+    {
+      "id": "series",
+      "nombre": "Series",
+      "canal": 2
+    },
+    {
+      "id": "infantil",
+      "nombre": "Infantil",
+      "canal": 3
+    },
+    {
+      "id": "documentales",
+      "nombre": "Documentales",
+      "canal": 4
+    }
+  ],
+  "titulos": [
+    {
+      "id": "lucifer",
+      "tipo": "serie",
+      "categoria": "series",
+      "nombre": "Lucifer — avances oficiales",
+      "anio": 2016,
+      "edad": 14,
+      "idioma": "Inglés",
+      "generos": [
+        "Drama",
+        "Policial",
+        "Fantasía"
+      ],
+      "sinopsis": "El señor del infierno se aburre, abre un club nocturno en Los Ángeles y acaba ayudando a una detective a resolver crímenes. Aquí, los tráileres y avances oficiales de las temporadas 1 y 2.",
+      "destacado": true,
+      "agregado": "2026-11-18",
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "nombre": "Tráiler oficial (FOX)",
+              "youtube": "X4bF_quwNtw",
+              "duracion": 181
+            },
+            {
+              "nombre": "Tráiler de la temporada completa (Warner Bros.)",
+              "youtube": "7I8kUiY7NTQ",
+              "duracion": 83
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "episodios": [
+            {
+              "nombre": "Primer vistazo — Comic-Con 2016 (DC)",
+              "youtube": "FbmXJR1Vjj4",
+              "duracion": 149
+            },
+            {
+              "nombre": "Una historia de amor endiablada (Warner Bros.)",
+              "youtube": "P5w5o-LN8E0",
+              "duracion": 171
+            },
+            {
+              "nombre": "Mirando atrás: Rachael Harris (FOX)",
+              "youtube": "mtQYA0MvcIc",
+              "duracion": 68
+            },
+            {
+              "nombre": "Mirando atrás: Aimee Garcia (FOX)",
+              "youtube": "F-zxSKmxqlI",
+              "duracion": 76
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sintel",
+      "tipo": "pelicula",
+      "categoria": "peliculas",
+      "nombre": "Sintel",
+      "anio": 2010,
+      "edad": 12,
+      "idioma": "Inglés",
+      "generos": [
+        "Fantasía",
+        "Aventura",
+        "Animación"
+      ],
+      "sinopsis": "Una joven solitaria cruza un mundo hostil para encontrar al pequeño dragón que crió y le arrebataron.",
+      "youtube": "eRsGyueVLvQ",
+      "duracion": 888,
+      "destacado": true,
+      "agregado": "2026-11-01"
+    },
+    {
+      "id": "tears-of-steel",
+      "tipo": "pelicula",
+      "categoria": "peliculas",
+      "nombre": "Tears of Steel",
+      "anio": 2012,
+      "edad": 12,
+      "idioma": "Inglés",
+      "generos": [
+        "Ciencia ficción",
+        "Acción"
+      ],
+      "sinopsis": "En una Ámsterdam del futuro, un grupo de científicos y guerreros intenta salvar el mundo de los robots reviviendo un momento clave del pasado.",
+      "youtube": "R6MlUcmOul8",
+      "duracion": 735,
+      "destacado": true,
+      "agregado": "2026-11-02"
+    },
+    {
+      "id": "cosmos-laundromat",
+      "tipo": "pelicula",
+      "categoria": "peliculas",
+      "nombre": "Cosmos Laundromat",
+      "anio": 2015,
+      "edad": 12,
+      "idioma": "Inglés",
+      "generos": [
+        "Fantasía",
+        "Drama",
+        "Animación"
+      ],
+      "sinopsis": "En una isla desolada, Franck, una oveja cansada de la vida, conoce a Victor, un vendedor misterioso que le ofrece una vida… o muchas.",
+      "youtube": "Y-rmzh0PI3c",
+      "duracion": 731,
+      "agregado": "2026-11-03"
+    },
+    {
+      "id": "agent-327",
+      "tipo": "pelicula",
+      "categoria": "peliculas",
+      "nombre": "Agente 327: Operación Barbería",
+      "anio": 2017,
+      "edad": 7,
+      "generos": [
+        "Acción",
+        "Comedia",
+        "Animación"
+      ],
+      "sinopsis": "El agente secreto 327 se infiltra en una barbería que esconde una guarida enemiga, y la pelea se le va de las manos.",
+      "youtube": "mN0zPOpADL4",
+      "duracion": 232,
+      "destacado": true,
+      "agregado": "2026-11-04"
+    },
+    {
+      "id": "sprite-fright",
+      "tipo": "pelicula",
+      "categoria": "peliculas",
+      "nombre": "Sprite Fright",
+      "anio": 2021,
+      "edad": 12,
+      "idioma": "Inglés",
+      "generos": [
+        "Terror cómico",
+        "Comedia",
+        "Animación"
+      ],
+      "sinopsis": "Unos adolescentes de excursión en un bosque británico se topan con unos pequeños seres del musgo que no toleran el desorden.",
+      "youtube": "_cMxraX_5RE",
+      "duracion": 630,
+      "agregado": "2026-11-10"
+    },
+    {
+      "id": "charge",
+      "tipo": "pelicula",
+      "categoria": "peliculas",
+      "nombre": "Charge",
+      "anio": 2022,
+      "edad": 12,
+      "generos": [
+        "Acción",
+        "Ciencia ficción",
+        "Animación"
+      ],
+      "sinopsis": "En un mundo sin energía, una ladrona hábil y desesperada intenta robarle a un viejo granjero su reserva de baterías.",
+      "youtube": "UXqq0ZvbOnk",
+      "duracion": 263,
+      "agregado": "2026-11-12"
+    },
+    {
+      "id": "hero",
+      "tipo": "pelicula",
+      "categoria": "peliculas",
+      "nombre": "Hero",
+      "anio": 2018,
+      "edad": 7,
+      "generos": [
+        "Acción",
+        "Animación"
+      ],
+      "sinopsis": "Un duelo vertiginoso dibujado a mano, cuadro a cuadro, que mostró lo que podía hacer la animación 2D dentro de Blender.",
+      "youtube": "pKmSdY56VtY",
+      "duracion": 237,
+      "agregado": "2026-11-05"
+    },
+    {
+      "id": "caminandes",
+      "tipo": "serie",
+      "categoria": "series",
+      "nombre": "Caminandes",
+      "anio": 2013,
+      "edad": 0,
+      "idioma": "Sin diálogos",
+      "generos": [
+        "Comedia",
+        "Familiar",
+        "Animación"
+      ],
+      "sinopsis": "Koro, una llama de la Patagonia, se mete en un lío tras otro: cruzar una carretera, pasar una cerca o quedarse con la última baya del invierno.",
+      "destacado": true,
+      "agregado": "2026-11-14",
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "nombre": "Llama Drama",
+              "youtube": "JOhiWY7XmoY",
+              "duracion": 90
+            },
+            {
+              "nombre": "Gran Dillama",
+              "youtube": "Z4C82eyhwgU",
+              "duracion": 147
+            },
+            {
+              "nombre": "Llamigos",
+              "youtube": "SkVqJ1SGeL0",
+              "duracion": 151
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asi-se-hizo",
+      "tipo": "serie",
+      "categoria": "series",
+      "nombre": "Así se hizo",
+      "anio": 2022,
+      "edad": 7,
+      "generos": [
+        "Detrás de cámaras"
+      ],
+      "sinopsis": "Cómo trabaja un estudio de animación abierto: pruebas, diseño y secretos de producción de sus cortos.",
+      "agregado": "2026-11-15",
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "nombre": "Así se hizo CHARGE",
+              "youtube": "pNPPVCPuWG8",
+              "duracion": 679
+            },
+            {
+              "nombre": "Spring: lo mejor en tres minutos",
+              "youtube": "R7TLwKwixZA",
+              "duracion": 189
+            },
+            {
+              "nombre": "Sprite Fright: lo mejor en dos minutos",
+              "youtube": "X4MXWcx4jUA",
+              "duracion": 141
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "big-buck-bunny",
+      "tipo": "pelicula",
+      "categoria": "infantil",
+      "nombre": "Big Buck Bunny",
+      "anio": 2008,
+      "edad": 0,
+      "idioma": "Sin diálogos",
+      "generos": [
+        "Comedia",
+        "Familiar",
+        "Animación"
+      ],
+      "sinopsis": "Un conejo enorme y bonachón decide darles una lección a tres roedores abusones que no dejan en paz a los animales del bosque.",
+      "youtube": "aqz-KE-bpKQ",
+      "duracion": 635,
+      "destacado": true,
+      "agregado": "2026-11-06"
+    },
+    {
+      "id": "wing-it",
+      "tipo": "pelicula",
+      "categoria": "infantil",
+      "nombre": "Wing It!",
+      "anio": 2023,
+      "edad": 0,
+      "generos": [
+        "Comedia",
+        "Familiar",
+        "Animación"
+      ],
+      "sinopsis": "Un gato y un perro construyen un cohete con chatarra y muchísima confianza. ¿Qué podría salir mal?",
+      "youtube": "u9lj-c29dxI",
+      "duracion": 238,
+      "agregado": "2026-11-16"
+    },
+    {
+      "id": "spring",
+      "tipo": "pelicula",
+      "categoria": "infantil",
+      "nombre": "Spring",
+      "anio": 2019,
+      "edad": 7,
+      "idioma": "Sin diálogos",
+      "generos": [
+        "Fantasía",
+        "Aventura",
+        "Animación"
+      ],
+      "sinopsis": "Una pastora y su perro se enfrentan a espíritus ancestrales para que el ciclo de la vida siga su curso.",
+      "youtube": "WhWc3b3KhnY",
+      "duracion": 465,
+      "agregado": "2026-11-07"
+    },
+    {
+      "id": "coffee-run",
+      "tipo": "pelicula",
+      "categoria": "infantil",
+      "nombre": "Coffee Run",
+      "anio": 2020,
+      "edad": 7,
+      "idioma": "Sin diálogos",
+      "generos": [
+        "Comedia",
+        "Animación"
+      ],
+      "sinopsis": "Impulsada por la cafeína, una joven recorre a toda velocidad los recuerdos agridulces de una relación pasada.",
+      "youtube": "PVGeM40dABA",
+      "duracion": 185,
+      "agregado": "2026-11-08"
+    },
+    {
+      "id": "misiones-nasa",
+      "tipo": "serie",
+      "categoria": "documentales",
+      "nombre": "Misiones de la NASA",
+      "anio": 2022,
+      "edad": 0,
+      "idioma": "Inglés",
+      "generos": [
+        "Espacio",
+        "Ciencia"
+      ],
+      "sinopsis": "Del despegue de Artemis I al aterrizaje en Marte: las imágenes reales de las misiones que están cambiando lo que sabemos del espacio.",
+      "destacado": true,
+      "agregado": "2026-11-17",
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "nombre": "Artemis I: del despegue al amerizaje",
+              "youtube": "jrDv0OdMt5s",
+              "duracion": 123
+            },
+            {
+              "nombre": "Las primeras imágenes del James Webb",
+              "youtube": "1C_zuHf6lP4",
+              "duracion": 201
+            },
+            {
+              "nombre": "Perseverance: descenso y aterrizaje en Marte",
+              "youtube": "4czjS9h4Fpg",
+              "duracion": 206
+            },
+            {
+              "nombre": "La Tierra como solo la NASA la ve",
+              "youtube": "iTHUUjTA-LI",
+              "duracion": 84
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

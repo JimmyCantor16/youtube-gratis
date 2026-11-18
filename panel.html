@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel Sala TV</title>
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#090B15">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='18' rx='5' fill='none' stroke='%2300E0AC' stroke-width='3'/%3E%3Cpath d='M11 28h10' stroke='%2300E0AC' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&family=Righteous&family=VT323&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/sala.css">
+<link rel="stylesheet" href="assets/panel.css">
+</head>
+<body class="sala panel">
+
+<header class="top">
+  <a class="logo" href="./" aria-label="Ir a la tele"><span class="logo-tv" aria-hidden="true"></span><span id="marca">Sala TV</span></a>
+  <span class="pn-sello">Panel del dueño</span>
+  <div class="pn-top-acc">
+    <span class="pn-pendientes" id="pendientes" hidden></span>
+    <a class="btn" href="./" target="_blank" rel="noopener">Ver la tele</a>
+    <button class="btn primario" id="publicar" type="button" disabled>Publicar cambios</button>
+  </div>
+</header>
+
+<div class="pn-aviso">
+  <b>Mockup:</b> «Publicar» guarda el catálogo en este navegador y la tele lo lee al instante. En la versión real,
+  publicar hace un commit de <code>catalogo.json</code> en GitHub y la tele se actualiza sola en 1–2 minutos.
+</div>
+
+<main class="pn">
+  <section class="pn-lista" aria-label="Catálogo">
+    <div class="pn-lista-cab">
+      <h1>Catálogo</h1>
+      <button class="btn primario" id="nuevo" type="button">+ Agregar título</button>
+    </div>
+    <div class="pn-filtros" id="filtros" role="tablist"></div>
+    <label class="buscar pn-buscar">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+      <input id="pn-q" type="search" placeholder="Buscar en el catálogo" aria-label="Buscar en el catálogo">
+    </label>
+    <div id="lista" class="pn-items"></div>
+
+    <details class="pn-cats">
+      <summary>Categorías y canales</summary>
+      <p class="pn-ayuda">Cada categoría es un canal del mando. El orden de la lista es el número del canal.</p>
+      <div id="cats"></div>
+      <form id="nueva-cat" class="pn-fila-form">
+        <input name="nombre" placeholder="Nueva categoría, p. ej. «Conciertos»" maxlength="30" required aria-label="Nombre de la nueva categoría">
+        <button class="btn" type="submit">Agregar</button>
+      </form>
+    </details>
+
+    <details class="pn-cats">
+      <summary>Más opciones</summary>
+      <div class="pn-mas">
+        <button class="btn" id="descargar" type="button">Descargar catalogo.json</button>
+        <button class="btn peligro" id="restaurar" type="button">Volver al catálogo original</button>
+      </div>
+    </details>
+  </section>
+
+  <section class="pn-editor" id="editor" aria-label="Editor de título" hidden></section>
+  <section class="pn-vacio" id="editor-vacio">
+    <div class="pn-vacio-ico" aria-hidden="true"><span class="logo-tv"></span></div>
+    <h2>Pega un enlace de YouTube</h2>
+    <p>El título y la portada se rellenan solos. Después eliges la categoría, los géneros y la edad, y publicas.</p>
+    <button class="btn primario" type="button" data-nuevo>+ Agregar título</button>
+  </section>
+</main>
+
+<div class="pn-toast" id="toast" role="status" hidden></div>
+
+<script type="module" src="assets/panel.js"></script>
+</body>
+</html>
