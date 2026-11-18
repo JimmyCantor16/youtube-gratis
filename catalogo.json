@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "actualizado": "2026-11-18",
   "marca": {
     "nombre": "Sala TV",
@@ -86,7 +86,11 @@
             }
           ]
         }
-      ]
+      ],
+      "externo": {
+        "plataforma": "Netflix",
+        "url": "https://www.netflix.com/title/80057918"
+      }
     },
     {
       "id": "sintel",

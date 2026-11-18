@@ -238,6 +238,12 @@ function anterior() {
   else verPortada(item);
 }
 
+/** Enlace a la plataforma con los derechos (solo https, para no abrir javascript: ni similares). */
+function externoSeguro(t) {
+  const u = t.externo?.url;
+  return typeof u === "string" && /^https:\/\//i.test(u) && t.externo.plataforma ? t.externo : null;
+}
+
 /** Llevar un episodio concreto a la tele (desde la ficha o una tarjeta). */
 function verEnLaTele(titulo, ep, desde) {
   const canal = estado.canales.findIndex((c) => c.categoria.id === titulo.categoria);
@@ -465,7 +471,9 @@ function abrirFicha(id, temporadaElegida) {
       <p class="ficha-meta">${t.anio || ""} · <span class="edad">${etiquetaEdad(t.edad)}</span> · ${serie ? `${episodiosDe(t).length} episodios` : duracionLegible(t.duracion)}${t.idioma ? " · " + escapar(t.idioma) : ""}</p>
       <div class="ficha-acc">
         <button class="btn primario" data-play>${ICONO.play} ${textoPlay}</button>
+        ${externoSeguro(t) ? `<a class="btn" href="${escapar(t.externo.url)}" target="_blank" rel="noopener noreferrer">Ver completa en ${escapar(t.externo.plataforma)} ↗</a>` : ""}
       </div>
+      ${externoSeguro(t) ? `<p class="ficha-externo">La serie completa está en ${escapar(t.externo.plataforma)} (requiere suscripción). En esta tele, ${serie ? "los avances oficiales" : "el avance oficial"}.</p>` : ""}
       <p class="sinopsis">${escapar(t.sinopsis || "")}</p>
       <div class="generos">${(t.generos || []).map((g) => `<span>${escapar(g)}</span>`).join("")}</div>
       ${serie ? `

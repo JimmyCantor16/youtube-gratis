@@ -694,3 +694,4 @@ img { display: block; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
 }
+.ficha p.ficha-externo { margin: -8px 0 14px; font-size: 13px; color: var(--muted); }
