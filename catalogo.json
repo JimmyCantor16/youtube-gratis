@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "actualizado": "2026-11-23",
   "marca": {
     "nombre": "Sala TV",
@@ -106,7 +106,6 @@
         "Rock"
       ],
       "sinopsis": "Serie documental de la BBC y VH1 (2007) en siete episodios: el nacimiento del rock, el art rock, el punk, el heavy metal, el rock de estadio, el rock alternativo y el brit rock. Aquí, las promos oficiales de su emisión en la televisión pública de Uruguay (Canal 5 / TNU); los episodios completos no están publicados por sus dueños.",
-      "destacado": true,
       "agregado": "2026-11-23",
       "temporadas": [
         {
@@ -146,6 +145,239 @@
               "nombre": "Último capítulo — domingo 19:00 (TNU)",
               "youtube": "zEYX-D01zcQ",
               "duracion": 63
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "metal-evolution",
+      "tipo": "serie",
+      "categoria": "documentales",
+      "nombre": "Metal Evolution (VH1 Classic)",
+      "anio": 2011,
+      "edad": 14,
+      "idioma": "Inglés",
+      "generos": [
+        "Documental",
+        "Música",
+        "Metal"
+      ],
+      "sinopsis": "La serie de VH1 Classic en la que el antropólogo Sam Dunn recorre la historia del heavy metal, del pre-metal al metal extremo. Aquí, del canal oficial de su productora (Banger Films): el capítulo «Extreme Metal» completo, el documental «Slaughter of the Soul» y las entrevistas íntegras que se grabaron para la serie, de Iggy Pop y Jon Lord a Slash, Dave Mustaine y Steve Albini.",
+      "destacado": true,
+      "agregado": "2026-11-23",
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "nombre": "Capítulo completo — Extreme Metal",
+              "youtube": "MoHOgfEoTlc",
+              "duracion": 3078
+            },
+            {
+              "nombre": "Documental completo — At the Gates: Slaughter of the Soul",
+              "youtube": "6B8SOtRoayc",
+              "duracion": 1457
+            },
+            {
+              "nombre": "Entrevista íntegra — Iggy Pop",
+              "youtube": "wONoxYjfNQo",
+              "duracion": 606
+            },
+            {
+              "nombre": "Entrevista íntegra — The Stooges",
+              "youtube": "n2apoY_ZQLs",
+              "duracion": 1384
+            },
+            {
+              "nombre": "Entrevista íntegra — Sammy Hagar",
+              "youtube": "n0QMchwIoa4",
+              "duracion": 603
+            },
+            {
+              "nombre": "Entrevista íntegra — Jon Lord (Deep Purple)",
+              "youtube": "YM7TidriOz4",
+              "duracion": 820
+            },
+            {
+              "nombre": "Entrevista íntegra — Adrian Smith (Iron Maiden)",
+              "youtube": "a7A47tLd5Y4",
+              "duracion": 2026
+            },
+            {
+              "nombre": "Entrevista íntegra — Ace Frehley (KISS)",
+              "youtube": "acvMcw8vFes",
+              "duracion": 1204
+            },
+            {
+              "nombre": "Entrevista íntegra — Peter Criss (KISS)",
+              "youtube": "JgbmUPSfAaQ",
+              "duracion": 637
+            },
+            {
+              "nombre": "Entrevista íntegra — Slash",
+              "youtube": "3eG1JKoOCqg",
+              "duracion": 769
+            },
+            {
+              "nombre": "Entrevista íntegra — Scott Ian (Anthrax)",
+              "youtube": "1HTxf_G9n-s",
+              "duracion": 758
+            },
+            {
+              "nombre": "Entrevista íntegra — Alex Skolnick y Paul Bostaph (Testament)",
+              "youtube": "prWUj1HS1Zo",
+              "duracion": 737
+            },
+            {
+              "nombre": "Entrevista íntegra — Dave Mustaine (parte 1)",
+              "youtube": "9EfQovc7Oaw",
+              "duracion": 1253
+            },
+            {
+              "nombre": "Entrevista íntegra — Dave Mustaine (parte 2)",
+              "youtube": "ppHujMKHU0Y",
+              "duracion": 1880
+            },
+            {
+              "nombre": "Entrevista íntegra — Dave Mustaine (parte 3)",
+              "youtube": "S5SBqsvuKZ4",
+              "duracion": 1890
+            },
+            {
+              "nombre": "Entrevista íntegra — Kim Thayil (Soundgarden)",
+              "youtube": "Mhb-oWHkvrI",
+              "duracion": 1655
+            },
+            {
+              "nombre": "Entrevista íntegra — Steve Albini",
+              "youtube": "qzNfo8amNWU",
+              "duracion": 3955
+            },
+            {
+              "nombre": "Entrevista íntegra — Clown (Slipknot)",
+              "youtube": "Ka_RmyRdWyg",
+              "duracion": 643
+            },
+            {
+              "nombre": "Entrevista íntegra — Carcass",
+              "youtube": "MuX1u-72n2M",
+              "duracion": 1412
+            },
+            {
+              "nombre": "Entrevista íntegra — Shane Embury (Napalm Death)",
+              "youtube": "wKoSnDsnX90",
+              "duracion": 1473
+            },
+            {
+              "nombre": "Entrevista íntegra — Tomas Lindberg (At the Gates)",
+              "youtube": "13HQcClnhsQ",
+              "duracion": 1832
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "that-metal-show",
+      "tipo": "serie",
+      "categoria": "series",
+      "nombre": "That Metal Show (VH1 Classic)",
+      "anio": 2008,
+      "edad": 14,
+      "idioma": "Inglés",
+      "generos": [
+        "Talk show",
+        "Música",
+        "Metal"
+      ],
+      "sinopsis": "El programa de hard rock y heavy metal de VH1 Classic, con Eddie Trunk, Jim Florentine y Don Jamieson. Aquí, del canal oficial del programa: las sobremesas con los invitados («That After Show»), los solos y equipos de guitarristas («That Metal Gear») y los detrás de cámaras, de 5 a 9 minutos cada uno.",
+      "destacado": true,
+      "agregado": "2026-11-23",
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "nombre": "That After Show — John Petrucci y Geddy Lee",
+              "youtube": "Bet6rPhNSIU",
+              "duracion": 482
+            },
+            {
+              "nombre": "That After Show — Jamey Jasta, John Bush y Joey Vera",
+              "youtube": "pdW90-CsBgU",
+              "duracion": 559
+            },
+            {
+              "nombre": "That After Show — Marky Ramone, DMC y Gary Holt",
+              "youtube": "0FPtz82gOhM",
+              "duracion": 514
+            },
+            {
+              "nombre": "That After Show — Dave Lombardo y John 5",
+              "youtube": "dyi1xhQXwak",
+              "duracion": 308
+            },
+            {
+              "nombre": "That After Show — Anthrax",
+              "youtube": "ZGkR-nO-4IQ",
+              "duracion": 309
+            },
+            {
+              "nombre": "That Metal Gear — Michael Angelo Batio",
+              "youtube": "gf2jPcun_YU",
+              "duracion": 520
+            },
+            {
+              "nombre": "That Metal Gear — John 5",
+              "youtube": "47k99BLnaJ0",
+              "duracion": 483
+            },
+            {
+              "nombre": "That Metal Gear — Alex Skolnick (Testament)",
+              "youtube": "q7W343kjEe4",
+              "duracion": 459
+            },
+            {
+              "nombre": "That Metal Gear — John Petrucci",
+              "youtube": "1EfGPB4a7fc",
+              "duracion": 369
+            },
+            {
+              "nombre": "That Metal Gear — Lita Ford",
+              "youtube": "6-rRHEIOxtw",
+              "duracion": 366
+            },
+            {
+              "nombre": "Detrás de cámaras — Peter Criss y Richard Christy",
+              "youtube": "YR4hnTtOyEU",
+              "duracion": 363
+            },
+            {
+              "nombre": "Detrás de cámaras — Armored Saint, Jamey Jasta y Michael Angelo Batio",
+              "youtube": "-ousX5eALeA",
+              "duracion": 320
+            },
+            {
+              "nombre": "Detrás de cámaras — Bumblefoot",
+              "youtube": "L71H4Lp2x_E",
+              "duracion": 300
+            },
+            {
+              "nombre": "Resumen de la semana — 3 de marzo de 2015",
+              "youtube": "JGOpyq0u7bw",
+              "duracion": 352
+            },
+            {
+              "nombre": "Resumen de la semana — Gary Holt",
+              "youtube": "DyjkOzqF7NI",
+              "duracion": 303
+            },
+            {
+              "nombre": "That Metal Show Must Go On",
+              "youtube": "Z1cgyqN_QWY",
+              "duracion": 375
             }
           ]
         }

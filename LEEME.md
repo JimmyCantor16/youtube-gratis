@@ -48,7 +48,13 @@ derechos son de ellos. Y «Las siete edades del rock — promos oficiales» (Sev
 of Rock, BBC/VH1 2007): 7 promos de su emisión en la televisión pública de Uruguay,
 de los canales oficiales de Canal 5 (@Canal5UY) y TNU, comprobadas el 23-nov-2026.
 Ni la BBC ni VH1 publican los episodios completos en YouTube; las copias completas
-que circulan son subidas de terceros sin derechos y no se usan. Se reemplaza por el
+que circulan son subidas de terceros sin derechos y no se usan. De VH1 Classic,
+además, solo material largo de canales oficiales: «Metal Evolution» (21 piezas,
+~8 h, de @BANGERTV, el canal de su productora Banger Films: el capítulo «Extreme
+Metal» completo, el documental «Slaughter of the Soul» y entrevistas íntegras cuya
+descripción las sitúa en el rodaje de la serie) y «That Metal Show» (16 segmentos
+de 5 a 9 min de @thatmetalshow, el canal oficial que enlaza a vh1.com/TMS; no
+publica programas completos). Se reemplaza por el
 contenido del cliente desde el panel o editando `catalogo.json`.
 
 ## Cambiar la marca
