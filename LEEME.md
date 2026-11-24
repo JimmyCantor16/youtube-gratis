@@ -44,8 +44,12 @@ Películas abiertas de Blender Studio (CC BY) y videos públicos de la NASA, tod
 comprobados el 18-nov-2026 por oEmbed: existen y su dueño permite incrustarlos.
 Además, «Lucifer — avances oficiales»: tráileres y avances de las temporadas 1 y 2
 publicados por sus dueños (FOX, Warner Bros. y DC) en sus canales oficiales; los
-derechos son de ellos. Se reemplaza por el contenido del cliente desde el panel o
-editando `catalogo.json`.
+derechos son de ellos. Y «Las siete edades del rock — promos oficiales» (Seven Ages
+of Rock, BBC/VH1 2007): 7 promos de su emisión en la televisión pública de Uruguay,
+de los canales oficiales de Canal 5 (@Canal5UY) y TNU, comprobadas el 23-nov-2026.
+Ni la BBC ni VH1 publican los episodios completos en YouTube; las copias completas
+que circulan son subidas de terceros sin derechos y no se usan. Se reemplaza por el
+contenido del cliente desde el panel o editando `catalogo.json`.
 
 ## Cambiar la marca
 

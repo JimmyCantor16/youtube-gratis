@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "actualizado": "2026-11-18",
+  "version": 4,
+  "actualizado": "2026-11-23",
   "marca": {
     "nombre": "Sala TV",
     "lema": "Tu canal, tu contenido",
@@ -91,6 +91,65 @@
         "plataforma": "Netflix",
         "url": "https://www.netflix.com/title/80057918"
       }
+    },
+    {
+      "id": "seven-ages-of-rock",
+      "tipo": "serie",
+      "categoria": "documentales",
+      "nombre": "Las siete edades del rock — promos oficiales",
+      "anio": 2007,
+      "edad": 12,
+      "idioma": "Español",
+      "generos": [
+        "Documental",
+        "Música",
+        "Rock"
+      ],
+      "sinopsis": "Serie documental de la BBC y VH1 (2007) en siete episodios: el nacimiento del rock, el art rock, el punk, el heavy metal, el rock de estadio, el rock alternativo y el brit rock. Aquí, las promos oficiales de su emisión en la televisión pública de Uruguay (Canal 5 / TNU); los episodios completos no están publicados por sus dueños.",
+      "destacado": true,
+      "agregado": "2026-11-23",
+      "temporadas": [
+        {
+          "numero": 1,
+          "episodios": [
+            {
+              "nombre": "Estreno: «Las 7 edades del rock» (TNU)",
+              "youtube": "dsOrcmpM-7o",
+              "duracion": 41
+            },
+            {
+              "nombre": "Promo — sábado 19:30 (Canal 5)",
+              "youtube": "Blw-aeqB9qg",
+              "duracion": 39
+            },
+            {
+              "nombre": "Promo — sábado 19:30, otra versión (Canal 5)",
+              "youtube": "BdUP7dRdiCU",
+              "duracion": 57
+            },
+            {
+              "nombre": "Promo en inglés — Saturday 7:30 PM (Canal 5)",
+              "youtube": "tUqQ159ZDFc",
+              "duracion": 46
+            },
+            {
+              "nombre": "Promo — domingo 19:00 (TNU)",
+              "youtube": "RR2AlINTcq0",
+              "duracion": 46
+            },
+            {
+              "nombre": "Promo en inglés — Sunday 7:00 PM (TNU)",
+              "youtube": "iyO5Omyb0nk",
+              "duracion": 50
+            },
+            {
+              "nombre": "Último capítulo — domingo 19:00 (TNU)",
+              "youtube": "zEYX-D01zcQ",
+              "duracion": 63
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "sintel",
